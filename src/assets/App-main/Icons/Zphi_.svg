@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="15mm"
+   height="15mm"
+   viewBox="0 0 15 15"
+   version="1.1"
+   id="svg1431"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="Zphi_.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1433"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="12.443434"
+     inkscape:cx="63.206023"
+     inkscape:cy="28.328192"
+     inkscape:window-width="3440"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1428" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-25.444941,-165.26969)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.58644px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.139661"
+       x="26.57114"
+       y="176.01865"
+       id="text40295-9-2-1"><tspan
+         sodipodi:role="line"
+         id="tspan40293-6-3-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';fill:#ffffff;stroke-width:0.139661"
+         x="26.57114"
+         y="176.01865">|Z|/Θ</tspan></text>
+    <g
+       id="g40305-2-8-4"
+       transform="matrix(0.33333333,0,0,0.33333333,77.992975,148.38247)"
+       style="display:inline">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.0566929;stroke-opacity:1;paint-order:stroke fill markers"
+         id="rect40297-7-4-6"
+         width="11.306418"
+         height="4.0895557"
+         x="-141.35995"
+         y="59.135918" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0932882;stroke-dashoffset:0.0566929;paint-order:stroke fill markers"
+         id="rect40299-3-8-6"
+         width="1.2028104"
+         height="5.8619046"
+         x="-61.926231"
+         y="-130.05833"
+         transform="rotate(-90)" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0885191;stroke-dashoffset:0.0566929;paint-order:stroke fill markers"
+         id="rect40303-4-2-5"
+         width="1.2028104"
+         height="5.2778807"
+         x="-61.63797"
+         y="-146.77058"
+         transform="rotate(-90)" />
+    </g>
+  </g>
+</svg>

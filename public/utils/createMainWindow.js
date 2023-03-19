@@ -18,7 +18,7 @@ exports.createMainWindow = async () => {
 		icon: config.icon,
 		title: config.appName,
 	});
-
+	window.maximize();
 	remote.enable(window.webContents);
 
 	await window.loadURL(

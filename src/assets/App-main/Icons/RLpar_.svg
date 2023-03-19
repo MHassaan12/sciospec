@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="15mm"
+   height="15mm"
+   viewBox="0 0 15 15"
+   version="1.1"
+   id="svg1524"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="RLpar_.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1526"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="17.597674"
+     inkscape:cx="50.319151"
+     inkscape:cy="21.622176"
+     inkscape:window-width="3440"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1521">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Fades hue progressively to white"
+       inkscape:menu="Color"
+       inkscape:label="Hue to White"
+       id="filter106388"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 "
+         type="matrix"
+         result="r"
+         in="SourceGraphic"
+         id="feColorMatrix106360" />
+      <feColorMatrix
+         values="0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 "
+         type="matrix"
+         result="g"
+         in="SourceGraphic"
+         id="feColorMatrix106362" />
+      <feColorMatrix
+         values="0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 "
+         type="matrix"
+         result="b"
+         in="SourceGraphic"
+         id="feColorMatrix106364" />
+      <feBlend
+         result="minrg"
+         in="r"
+         mode="darken"
+         in2="g"
+         id="feBlend106366" />
+      <feBlend
+         result="p"
+         in="minrg"
+         mode="darken"
+         in2="b"
+         id="feBlend106368" />
+      <feBlend
+         result="maxrg"
+         in="r"
+         mode="lighten"
+         in2="g"
+         id="feBlend106370" />
+      <feBlend
+         result="q"
+         in="maxrg"
+         mode="lighten"
+         in2="b"
+         id="feBlend106372" />
+      <feComponentTransfer
+         result="q2"
+         in="q"
+         id="feComponentTransfer106376">
+        <feFuncR
+           slope="0"
+           type="linear"
+           id="feFuncR106374" />
+      </feComponentTransfer>
+      <feBlend
+         result="pq"
+         in="p"
+         mode="lighten"
+         in2="q2"
+         id="feBlend106378" />
+      <feColorMatrix
+         values="-1 1 0 0 0 -1 1 0 0 0 -1 1 0 0 0 0 0 0 0 1 "
+         type="matrix"
+         result="qminp"
+         in="pq"
+         id="feColorMatrix106380" />
+      <feComposite
+         k3="1"
+         operator="arithmetic"
+         result="qminpc"
+         in="qminp"
+         in2="qminp"
+         id="feComposite106382"
+         k1="0"
+         k2="0"
+         k4="0" />
+      <feBlend
+         result="result2"
+         in2="SourceGraphic"
+         mode="screen"
+         id="feBlend106384" />
+      <feComposite
+         operator="in"
+         in="result2"
+         in2="SourceGraphic"
+         result="result1"
+         id="feComposite106386" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Lightness-Contrast"
+       id="filter120576"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         values="1 0 0 1 -0 0 1 0 1 -0 0 0 1 1 -0 0 0 0 1 0"
+         id="feColorMatrix120574"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix120596" />
+      <feColorMatrix
+         id="feColorMatrix120598"
+         values="1 0 0 1 -0 0 1 0 1 -0 0 0 1 1 -0 0 0 0 1 0"
+         in="fbSourceGraphic" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.5864px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.139661"
+       x="1.1425134"
+       y="10.748942"
+       id="text40205-8-0"><tspan
+         sodipodi:role="line"
+         id="tspan40203-4-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';fill:#ffffff;stroke-width:0.139661"
+         x="1.1425134"
+         y="10.748942">R<tspan
+   style="font-size:3.63118px;baseline-shift:sub;stroke-width:0.139661"
+   id="tspan40199-2-1">p</tspan>-L<tspan
+   style="font-size:3.63118px;baseline-shift:sub;stroke-width:0.139661"
+   id="tspan40201-7-0">p</tspan></tspan></text>
+    <g
+       id="g40227-7-4"
+       transform="matrix(0.33333334,0,0,0.33333334,45.44159,-20.5417)"
+       style="display:inline">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.0566929;stroke-opacity:1;paint-order:stroke fill markers"
+         id="rect40207-4-5"
+         width="11.306418"
+         height="4.0895557"
+         x="-120.04048"
+         y="66.924309" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dashoffset:0.0566929;paint-order:stroke fill markers"
+         id="rect40209-6-4"
+         width="11.306418"
+         height="4.0895557"
+         x="-120.12192"
+         y="73.80838" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dashoffset:0.0566929;paint-order:stroke fill markers"
+         id="rect40211-3-6"
+         width="1.2028104"
+         height="6.7357388"
+         x="-76.467384"
+         y="-113.50962"
+         transform="rotate(-90)" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0682794;stroke-dashoffset:0.0566929;paint-order:stroke fill markers"
+         id="rect40213-0-4"
+         width="1.2028104"
+         height="3.1402552"
+         x="-69.714622"
+         y="-108.73885"
+         transform="rotate(-90)" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0751247;stroke-dashoffset:0.0566929;paint-order:stroke fill markers"
+         id="rect40215-8-8"
+         width="1.2028104"
+         height="3.8014605"
+         x="-72.555008"
+         y="-106.70551"
+         transform="rotate(-90)" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0751247;stroke-dashoffset:0.0566929;paint-order:stroke fill markers"
+         id="rect40217-8-6"
+         width="1.2028104"
+         height="3.8014605"
+         x="-72.64006"
+         y="-126.5863"
+         transform="rotate(-90)" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0713392;stroke-dashoffset:0.0566929;paint-order:stroke fill markers"
+         id="rect40219-3-9"
+         width="1.2028104"
+         height="3.4280097"
+         x="-69.426361"
+         y="-123.60124"
+         transform="rotate(-90)" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dashoffset:0.0566929;paint-order:stroke fill markers"
+         id="rect40221-9-6"
+         width="1.2028104"
+         height="6.7357388"
+         x="-76.330421"
+         y="-123.57669"
+         transform="rotate(-90)" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.106423;stroke-dashoffset:0.0566929;paint-order:stroke fill markers"
+         id="rect40223-3-4"
+         width="1.2028104"
+         height="7.6287799"
+         x="105.57107"
+         y="-76.467384"
+         transform="scale(-1)" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.109661;stroke-dashoffset:0.0566929;paint-order:stroke fill markers"
+         id="rect40225-3-5"
+         width="1.2028104"
+         height="8.1000919"
+         x="122.68633"
+         y="-76.341049"
+         transform="scale(-1)" />
+    </g>
+  </g>
+</svg>

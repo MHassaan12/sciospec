@@ -12,3 +12,11 @@
 ::-webkit-scrollbar-thumb:hover {
 	background: #555;
 }
+
+.icon-bg {
+	@apply absolute inset-0 -z-10;
+}
+.icon-bg svg {
+	@apply h-3 w-3 ml-[0.44rem] mt-[0.44rem] 
+    text-white bg-white;
+}

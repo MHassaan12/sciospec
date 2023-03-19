@@ -683,6 +683,7 @@ export const SciospecWavesLogo = (props: React.SVGProps<SVGSVGElement>) => {
 			width={512}
 			height={512}
 			viewBox="0 0 512 512"
+			fill="currentColor"
 			xmlns="http://www.w3.org/2000/svg"
 			{...props}
 		>
@@ -728,6 +729,1824 @@ export const SciospecWavesLogo = (props: React.SVGProps<SVGSVGElement>) => {
 				d="m0 0-25.679 7.798C8.468 120.243 48.643 180.314 100.76 196.851c63.768 20.224 130.383-31.638 194.81-81.798C372.255 55.349 444.695-1.058 509.829 52.209c24.651 26.163 46.943 59.53 68.128 101.969 37.763 75.624 71.708 179.858 110.068 337.969l26.079-6.325c-39.374-162.317-72.91-265.088-112.134-343.634-22.546-45.164-46.499-80.832-73.221-109.035l-1.179-1.1C490.459 1.287 448.71-4.214 399.944 15.235c-40.71 16.238-81.458 47.962-120.862 78.638-61.664 48.009-119.906 93.355-170.207 77.396C66.532 157.836 29.353 96.004-1.565-5.808"
 				transform="matrix(.66684 0 0 -.66684 26.257 405.16)"
 			/>
+		</svg>
+	);
+};
+
+export const InductorIcon = (props: React.SVGProps<SVGSVGElement>) => {
+	return (
+		<svg
+			width="15mm"
+			height="7mm"
+			viewBox="0 0 15 7"
+			xmlns="http://www.w3.org/2000/svg"
+			{...props}
+		>
+			<g
+				style={{
+					display: "inline",
+				}}
+			>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "#fff",
+						strokeWidth: 0.7,
+						strokeMiterlimit: 4,
+						strokeDasharray: "none",
+						strokeDashoffset: 0.0566929,
+						strokeOpacity: 1,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-141.36 59.136h11.306v4.09h-11.306z"
+					transform="translate(93.574 -35.32) scale(.63266)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0932882,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 29.127 -64.447) scale(.63266)"
+					d="M-61.926-130.058h1.203v5.862h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0751247,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 29.127 -64.447) scale(.63266)"
+					d="M-61.677-147.906h1.203v3.801h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0713392,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 29.127 -64.447) scale(.63266)"
+					d="M-61.638-144.921h1.203v3.428h-1.203z"
+				/>
+			</g>
+		</svg>
+	);
+};
+
+export const CapacitorIcon = (props: React.SVGProps<SVGSVGElement>) => {
+	return (
+		<svg
+			width="15mm"
+			height="7mm"
+			viewBox="0 0 15 7"
+			xmlns="http://www.w3.org/2000/svg"
+			{...props}
+		>
+			<path
+				style={{
+					display: "inline",
+					fill: "#fff",
+					fillOpacity: 1,
+					stroke: "none",
+					strokeWidth: 0.0683548,
+					strokeDashoffset: 0.0566929,
+					paintOrder: "stroke fill markers",
+				}}
+				d="M126.376 120.852h.822v4.604h-.822z"
+				transform="translate(-118.736 -119.518)"
+			/>
+			<path
+				style={{
+					display: "inline",
+					fill: "#fff",
+					fillOpacity: 1,
+					stroke: "none",
+					strokeWidth: 0.0683548,
+					strokeDashoffset: 0.0566929,
+					paintOrder: "stroke fill markers",
+				}}
+				transform="rotate(-90 -119.127 -.391)"
+				d="M-123.565 127.125h.822v4.604h-.822zm.093-6.881h.822v4.604h-.822z"
+			/>
+			<path
+				style={{
+					display: "inline",
+					fill: "#fff",
+					fillOpacity: 1,
+					stroke: "none",
+					strokeWidth: 0.0683548,
+					strokeDashoffset: 0.0566929,
+					paintOrder: "stroke fill markers",
+				}}
+				d="M124.83 120.852h.822v4.604h-.822z"
+				transform="translate(-118.736 -119.518)"
+			/>
+		</svg>
+	);
+};
+
+export const PlayIcon = (props: React.SVGProps<SVGSVGElement>) => {
+	return (
+		<svg
+			width="15mm"
+			height="15mm"
+			viewBox="0 0 15 15"
+			xmlns="http://www.w3.org/2000/svg"
+			{...props}
+		>
+			<path
+				style={{
+					display: "inline",
+					fill: "#fff",
+					fillOpacity: 1,
+					stroke: "none",
+					strokeWidth: ".454701px",
+					strokeLinecap: "butt",
+					strokeLinejoin: "miter",
+					strokeOpacity: 1,
+				}}
+				d="M120.536 134.518v-15l11.984 7.907z"
+				transform="translate(-118.736 -119.518)"
+			/>
+		</svg>
+	);
+};
+
+export const RCparIcon = (props: React.SVGProps<SVGSVGElement>) => {
+	return (
+		<svg
+			width="15mm"
+			height="7mm"
+			viewBox="0 0 15 7"
+			xmlns="http://www.w3.org/2000/svg"
+			{...props}
+		>
+			<g
+				style={{
+					display: "inline",
+				}}
+			>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-114.606 72.498h1.203v6.736h-1.203z"
+					transform="translate(71.752 -37.348) scale(.55972)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 17.202 -54.55) scale(.55972)"
+					d="M-76.467-113.51h1.203v6.736h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0751247,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 17.202 -54.55) scale(.55972)"
+					d="M-72.555-106.706h1.203v3.801h-1.203zm-.085-19.88h1.203v3.801h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 17.202 -54.55) scale(.55972)"
+					d="M-76.33-123.577h1.203v6.736h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-116.867 72.498h1.203v6.736h-1.203z"
+					transform="translate(71.752 -37.348) scale(.55972)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.106423,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(180 35.876 -18.674) scale(.55972)"
+					d="M105.571-76.467h1.203v7.629h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.107896,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(180 35.876 -18.674) scale(.55972)"
+					d="M122.686-76.162h1.203v7.841h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "none",
+						fillOpacity: 1,
+						stroke: "#fff",
+						strokeWidth: 0.7,
+						strokeMiterlimit: 4,
+						strokeDasharray: "none",
+						strokeDashoffset: 0.0566929,
+						strokeOpacity: 1,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-120.343 67.078h11.306v4.09h-11.306z"
+					transform="translate(71.752 -37.348) scale(.55972)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0682794,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 17.202 -54.55) scale(.55972)"
+					d="M-69.868-109.041h1.203v3.14h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0713392,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 17.202 -54.55) scale(.55972)"
+					d="M-69.58-123.903h1.203v3.428h-1.203z"
+				/>
+			</g>
+		</svg>
+	);
+};
+
+export const RCserIcon = (props: React.SVGProps<SVGSVGElement>) => {
+	return (
+		<svg
+			width="15mm"
+			height="7mm"
+			viewBox="0 0 15 7"
+			xmlns="http://www.w3.org/2000/svg"
+			{...props}
+		>
+			<g
+				style={{
+					display: "inline",
+				}}
+			>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-108.537 69.211h1.203v6.736h-1.203z"
+					transform="translate(66.484 -33.496) scale(.51124)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 16.494 -49.99) scale(.51124)"
+					d="M-73.18-107.441h1.203v6.736h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.073061,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 16.494 -49.99) scale(.51124)"
+					d="M-73.043-114.367h1.203v3.595h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-110.798 69.211h1.203v6.736h-1.203z"
+					transform="translate(66.484 -33.496) scale(.51124)"
+				/>
+				<path
+					style={{
+						fill: "none",
+						fillOpacity: 1,
+						stroke: "#fff",
+						strokeWidth: 0.7,
+						strokeMiterlimit: 4,
+						strokeDasharray: "none",
+						strokeDashoffset: 0.0566929,
+						strokeOpacity: 1,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-125.634 70.253h11.306v4.09h-11.306z"
+					transform="translate(66.484 -33.496) scale(.51124)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0796992,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 16.494 -49.99) scale(.51124)"
+					d="M-72.755-130.045h1.203v4.279h-1.203z"
+				/>
+			</g>
+		</svg>
+	);
+};
+
+export const ResistorIcon = (props: React.SVGProps<SVGSVGElement>) => {
+	return (
+		<svg
+			width="15mm"
+			height="7mm"
+			viewBox="0 0 15 7"
+			xmlns="http://www.w3.org/2000/svg"
+			{...props}
+		>
+			<g
+				style={{
+					display: "inline",
+				}}
+			>
+				<path
+					style={{
+						fill: "none",
+						fillOpacity: 1,
+						stroke: "#fff",
+						strokeWidth: 0.7,
+						strokeMiterlimit: 4,
+						strokeDasharray: "none",
+						strokeDashoffset: 0.0566929,
+						strokeOpacity: 1,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-141.36 59.136h11.306v4.09h-11.306z"
+					transform="translate(93.574 -35.191) scale(.63266)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0932882,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 29.191 -64.383) scale(.63266)"
+					d="M-61.926-130.058h1.203v5.862h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0751247,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 29.191 -64.383) scale(.63266)"
+					d="M-61.677-147.906h1.203v3.801h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0713392,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 29.191 -64.383) scale(.63266)"
+					d="M-61.638-144.921h1.203v3.428h-1.203z"
+				/>
+			</g>
+		</svg>
+	);
+};
+
+export const RLparIcon = (props: React.SVGProps<SVGSVGElement>) => {
+	return (
+		<svg
+			width="15mm"
+			height="7mm"
+			viewBox="0 0 15 7"
+			xmlns="http://www.w3.org/2000/svg"
+			{...props}
+		>
+			<g
+				style={{
+					display: "inline",
+				}}
+			>
+				<path
+					style={{
+						fill: "none",
+						fillOpacity: 1,
+						stroke: "#fff",
+						strokeWidth: 0.7,
+						strokeMiterlimit: 4,
+						strokeDasharray: "none",
+						strokeDashoffset: 0.0566929,
+						strokeOpacity: 1,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-120.04 66.924h11.306v4.09h-11.306z"
+					transform="translate(78.452 -41.154) scale(.61818)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-120.122 73.808h11.306v4.09h-11.306z"
+					transform="translate(78.452 -41.154) scale(.61818)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 18.649 -59.803) scale(.61818)"
+					d="M-76.467-113.51h1.203v6.736h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0682794,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 18.649 -59.803) scale(.61818)"
+					d="M-69.715-108.739h1.203v3.14h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0751247,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 18.649 -59.803) scale(.61818)"
+					d="M-72.555-106.706h1.203v3.801h-1.203zm-.085-19.88h1.203v3.801h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0713392,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 18.649 -59.803) scale(.61818)"
+					d="M-69.426-123.601h1.203v3.428h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 18.649 -59.803) scale(.61818)"
+					d="M-76.33-123.577h1.203v6.736h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.106423,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(180 39.226 -20.577) scale(.61818)"
+					d="M105.571-76.467h1.203v7.629h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.107896,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(180 39.226 -20.577) scale(.61818)"
+					d="M122.686-76.162h1.203v7.841h-1.203z"
+				/>
+			</g>
+		</svg>
+	);
+};
+
+
+export const RLserIcon = (props: React.SVGProps<SVGSVGElement>) => {
+	return (
+		<svg
+			width="15mm"
+			height="7mm"
+			viewBox="0 0 15 7"
+			xmlns="http://www.w3.org/2000/svg"
+			{...props}
+		>
+			<g
+				style={{
+					display: "inline",
+				}}
+			>
+				<path
+					style={{
+						fill: "none",
+						fillOpacity: 1,
+						stroke: "#fff",
+						strokeWidth: 0.7,
+						strokeMiterlimit: 4,
+						strokeDasharray: "none",
+						strokeDashoffset: 0.0566929,
+						strokeOpacity: 1,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-126.92 71.158h11.306v4.09h-11.306z"
+					transform="translate(63.094 -32.239) scale(.48355)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-112.808 71.065h11.306v4.09h-11.306z"
+					transform="translate(63.094 -32.239) scale(.48355)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.154538,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 15.428 -47.667) scale(.48355)"
+					d="M-73.724-115.546h1.203v16.086h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0713392,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 15.428 -47.667) scale(.48355)"
+					d="M-73.66-130.48h1.203v3.428h-1.203z"
+				/>
+			</g>
+		</svg>
+	);
+};
+
+export const CIcon = (props: React.SVGProps<SVGSVGElement>) => {
+	return (
+		<svg
+			width="15mm"
+			height="15mm"
+			viewBox="0 0 15 15"
+			xmlns="http://www.w3.org/2000/svg"
+			{...props}
+		>
+			<path
+				style={{
+					display: "inline",
+					fill: "#fff",
+					fillOpacity: 1,
+					stroke: "none",
+					strokeWidth: 0.0333334,
+					strokeDashoffset: 0.0566929,
+					paintOrder: "stroke fill markers",
+				}}
+				d="M7.236 2.749h.401v2.245h-.401z"
+			/>
+			<path
+				style={{
+					display: "inline",
+					fill: "#fff",
+					fillOpacity: 1,
+					stroke: "none",
+					strokeWidth: 0.0333334,
+					strokeDashoffset: 0.0566929,
+					paintOrder: "stroke fill markers",
+				}}
+				transform="rotate(-90)"
+				d="M-4.072 7.602h.401v2.245h-.401zm.046-3.356h.401v2.245h-.401z"
+			/>
+			<path
+				style={{
+					display: "inline",
+					fill: "#fff",
+					fillOpacity: 1,
+					stroke: "none",
+					strokeWidth: 0.0333334,
+					strokeDashoffset: 0.0566929,
+					paintOrder: "stroke fill markers",
+				}}
+				d="M6.483 2.749h.401v2.245h-.401z"
+			/>
+			<text
+				xmlSpace="preserve"
+				style={{
+					fontStyle: "normal",
+					fontWeight: 400,
+					fontSize: "5.5864px",
+					lineHeight: 1.25,
+					fontFamily: "sans-serif",
+					display: "inline",
+					fill: "#fff",
+					fillOpacity: 1,
+					stroke: "none",
+					strokeWidth: 0.139661,
+				}}
+				x={5.376}
+				y={10.749}
+			>
+				<tspan
+					style={{
+						fontStyle: "normal",
+						fontVariant: "normal",
+						fontWeight: 400,
+						fontStretch: "normal",
+						fontFamily: "&quot",
+						// InkscapeFontSpecification: "&quot",
+						fill: "#fff",
+						strokeWidth: 0.139661,
+					}}
+					x={5.376}
+					y={10.749}
+				>
+					{"C"}
+				</tspan>
+			</text>
+		</svg>
+	);
+};
+
+export const LIcon = (props: React.SVGProps<SVGSVGElement>) => {
+	return (
+		<svg
+			width="15mm"
+			height="15mm"
+			viewBox="0 0 15 15"
+			xmlns="http://www.w3.org/2000/svg"
+			{...props}
+		>
+			<text
+				xmlSpace="preserve"
+				style={{
+					fontStyle: "normal",
+					fontWeight: 400,
+					fontSize: "5.5864px",
+					lineHeight: 1.25,
+					fontFamily: "sans-serif",
+					display: "inline",
+					fill: "#fff",
+					fillOpacity: 1,
+					stroke: "none",
+					strokeWidth: 0.139661,
+				}}
+				x={30.821}
+				y={176.019}
+				transform="translate(-25.445 -165.27)"
+			>
+				<tspan
+					style={{
+						fontStyle: "normal",
+						fontVariant: "normal",
+						fontWeight: 400,
+						fontStretch: "normal",
+						fontFamily: "&quot",
+						// InkscapeFontSpecification: "&quot",
+						fill: "#fff",
+						strokeWidth: 0.139661,
+					}}
+					x={30.821}
+					y={176.019}
+				>
+					{"L"}
+				</tspan>
+			</text>
+			<g
+				style={{
+					display: "inline",
+					fill: "#079eff",
+				}}
+			>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "#fff",
+						strokeWidth: 0.7,
+						strokeMiterlimit: 4,
+						strokeDasharray: "none",
+						strokeDashoffset: 0.0566929,
+						strokeOpacity: 1,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-141.36 59.136h11.306v4.09h-11.306z"
+					transform="translate(52.548 -16.888) scale(.33333)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0932882,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 17.83 -34.718) scale(.33333)"
+					d="M-61.926-130.058h1.203v5.862h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0920158,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 17.83 -34.718) scale(.33333)"
+					d="M-61.638-146.813h1.203v5.703h-1.203z"
+				/>
+			</g>
+		</svg>
+	);
+};
+
+export const RIcon = (props: React.SVGProps<SVGSVGElement>) => {
+	return (
+		<svg
+			width="15mm"
+			height="15mm"
+			viewBox="0 0 15 15"
+			xmlns="http://www.w3.org/2000/svg"
+			{...props}
+		>
+			<text
+				xmlSpace="preserve"
+				style={{
+					fontStyle: "normal",
+					fontWeight: 400,
+					fontSize: "5.5864px",
+					lineHeight: 1.25,
+					fontFamily: "sans-serif",
+					display: "inline",
+					fill: "#fff",
+					fillOpacity: 1,
+					stroke: "none",
+					strokeWidth: 0.139661,
+				}}
+				x={5.376}
+				y={10.749}
+			>
+				<tspan
+					style={{
+						fontStyle: "normal",
+						fontVariant: "normal",
+						fontWeight: 400,
+						fontStretch: "normal",
+						fontFamily: "&quot",
+						// InkscapeFontSpecification: "&quot",
+						fill: "#fff",
+						strokeWidth: 0.139661,
+					}}
+					x={5.376}
+					y={10.749}
+				>
+					{"R\n\n\n"}
+				</tspan>
+			</text>
+			<g
+				style={{
+					display: "inline",
+				}}
+			>
+				<path
+					style={{
+						fill: "none",
+						fillOpacity: 1,
+						stroke: "#fff",
+						strokeWidth: 0.7,
+						strokeMiterlimit: 4,
+						strokeDasharray: "none",
+						strokeDashoffset: 0.0566929,
+						strokeOpacity: 1,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-120.04 70.099h11.306v4.09h-11.306z"
+					transform="translate(45.442 -20.542) scale(.33333)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0932882,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 12.45 -32.992) scale(.33333)"
+					d="M-72.89-108.739h1.203v5.862h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0947005,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 12.45 -32.992) scale(.33333)"
+					d="M-72.601-126.214h1.203v6.041h-1.203z"
+				/>
+			</g>
+		</svg>
+	);
+};
+
+export const RCIcon = (props: React.SVGProps<SVGSVGElement>) => {
+	return (
+		<svg
+			width="15mm"
+			height="15mm"
+			viewBox="0 0 15 15"
+			xmlns="http://www.w3.org/2000/svg"
+			{...props}
+		>
+			<text
+				xmlSpace="preserve"
+				style={{
+					fontStyle: "normal",
+					fontWeight: 400,
+					fontSize: "5.5864px",
+					lineHeight: 1.25,
+					fontFamily: "sans-serif",
+					display: "inline",
+					fill: "#fff",
+					fillOpacity: 1,
+					stroke: "none",
+					strokeWidth: 0.139661,
+				}}
+				x={1.143}
+				y={10.749}
+			>
+				<tspan
+					style={{
+						fontStyle: "normal",
+						fontVariant: "normal",
+						fontWeight: 400,
+						fontStretch: "normal",
+						fontFamily: "&quot",
+						// InkscapeFontSpecification: "&quot",
+						fill: "#fff",
+						strokeWidth: 0.139661,
+					}}
+					x={1.143}
+					y={10.749}
+				>
+					{"R"}
+					<tspan
+						style={{
+							fontSize: "3.63118px",
+							baselineShift: "sub",
+							strokeWidth: 0.139661,
+						}}
+					>
+						{"s"}
+					</tspan>
+					{"-C"}
+					<tspan
+						style={{
+							fontSize: "3.63118px",
+							baselineShift: "sub",
+							strokeWidth: 0.139661,
+						}}
+					>
+						{"s"}
+					</tspan>
+				</tspan>
+			</text>
+			<g
+				style={{
+					display: "inline",
+				}}
+			>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-108.537 69.211h1.203v6.736h-1.203z"
+					transform="translate(45.442 -20.542) scale(.33333)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 12.45 -32.992) scale(.33333)"
+					d="M-73.18-107.441h1.203v6.736h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.073061,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 12.45 -32.992) scale(.33333)"
+					d="M-73.043-114.367h1.203v3.595h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-110.798 69.211h1.203v6.736h-1.203z"
+					transform="translate(45.442 -20.542) scale(.33333)"
+				/>
+				<path
+					style={{
+						fill: "none",
+						fillOpacity: 1,
+						stroke: "#fff",
+						strokeWidth: 0.7,
+						strokeMiterlimit: 4,
+						strokeDasharray: "none",
+						strokeDashoffset: 0.0566929,
+						strokeOpacity: 1,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-125.634 70.253h11.306v4.09h-11.306z"
+					transform="translate(45.442 -20.542) scale(.33333)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0796992,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 12.45 -32.992) scale(.33333)"
+					d="M-72.755-130.045h1.203v4.279h-1.203z"
+				/>
+			</g>
+		</svg>
+	);
+};
+
+export const RCParIcon = (props: React.SVGProps<SVGSVGElement>) => {
+	return (
+		<svg
+			width="15mm"
+			height="15mm"
+			viewBox="0 0 15 15"
+			xmlns="http://www.w3.org/2000/svg"
+			{...props}
+		>
+			<text
+				xmlSpace="preserve"
+				style={{
+					fontStyle: "normal",
+					fontWeight: 400,
+					fontSize: "5.5864px",
+					lineHeight: 1.25,
+					fontFamily: "sans-serif",
+					display: "inline",
+					fill: "#fff",
+					fillOpacity: 1,
+					stroke: "none",
+					strokeWidth: 0.139661,
+				}}
+				x={1.143}
+				y={10.749}
+			>
+				<tspan
+					style={{
+						fontStyle: "normal",
+						fontVariant: "normal",
+						fontWeight: 400,
+						fontStretch: "normal",
+						fontFamily: "&quot",
+						// InkscapeFontSpecification: "&quot",
+						fill: "#fff",
+						strokeWidth: 0.139661,
+					}}
+					x={1.143}
+					y={10.749}
+				>
+					{"R"}
+					<tspan
+						style={{
+							fontSize: "3.63118px",
+							baselineShift: "sub",
+							strokeWidth: 0.139661,
+						}}
+					>
+						{"p"}
+					</tspan>
+					{"-C"}
+					<tspan
+						style={{
+							fontSize: "3.63118px",
+							baselineShift: "sub",
+							strokeWidth: 0.139661,
+						}}
+					>
+						{"p"}
+					</tspan>
+				</tspan>
+			</text>
+			<g
+				style={{
+					display: "inline",
+				}}
+			>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-114.606 72.498h1.203v6.736h-1.203z"
+					transform="translate(45.442 -20.542) scale(.33333)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 12.45 -32.992) scale(.33333)"
+					d="M-76.467-113.51h1.203v6.736h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0751247,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 12.45 -32.992) scale(.33333)"
+					d="M-72.555-106.706h1.203v3.801h-1.203zm-.085-19.88h1.203v3.801h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 12.45 -32.992) scale(.33333)"
+					d="M-76.33-123.577h1.203v6.736h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-116.867 72.498h1.203v6.736h-1.203z"
+					transform="translate(45.442 -20.542) scale(.33333)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.107596,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(180 22.721 -10.271) scale(.33333)"
+					d="M105.571-76.467h1.203v7.798h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.108515,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(180 22.721 -10.271) scale(.33333)"
+					d="M122.686-76.32h1.203v7.932h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "none",
+						fillOpacity: 1,
+						stroke: "#fff",
+						strokeWidth: 0.7,
+						strokeMiterlimit: 4,
+						strokeDasharray: "none",
+						strokeDashoffset: 0.0566929,
+						strokeOpacity: 1,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-120.343 67.078h11.306v4.09h-11.306z"
+					transform="translate(45.442 -20.542) scale(.33333)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0682794,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 12.45 -32.992) scale(.33333)"
+					d="M-69.868-109.041h1.203v3.14h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0712218,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 12.45 -32.992) scale(.33333)"
+					d="M-69.58-123.892h1.203v3.417h-1.203z"
+				/>
+			</g>
+		</svg>
+	);
+};
+
+export const RLIcon = (props: React.SVGProps<SVGSVGElement>) => {
+	return (
+		<svg
+			width="15mm"
+			height="15mm"
+			viewBox="0 0 15 15"
+			xmlns="http://www.w3.org/2000/svg"
+			{...props}
+		>
+			<text
+				xmlSpace="preserve"
+				style={{
+					fontStyle: "normal",
+					fontWeight: 400,
+					fontSize: "5.5864px",
+					lineHeight: 1.25,
+					fontFamily: "sans-serif",
+					display: "inline",
+					fill: "#fff",
+					fillOpacity: 1,
+					stroke: "none",
+					strokeWidth: 0.139661,
+				}}
+				x={1.143}
+				y={10.749}
+			>
+				<tspan
+					style={{
+						fontStyle: "normal",
+						fontVariant: "normal",
+						fontWeight: 400,
+						fontStretch: "normal",
+						fontFamily: "&quot",
+						// InkscapeFontSpecification: "&quot",
+						fill: "#fff",
+						strokeWidth: 0.139661,
+					}}
+					x={1.143}
+					y={10.749}
+				>
+					{"R"}
+					<tspan
+						style={{
+							fontSize: "3.63118px",
+							baselineShift: "sub",
+							strokeWidth: 0.139661,
+						}}
+					>
+						{"s"}
+					</tspan>
+					{"-L"}
+					<tspan
+						style={{
+							fontSize: "3.63118px",
+							baselineShift: "sub",
+							strokeWidth: 0.139661,
+						}}
+					>
+						{"s"}
+					</tspan>
+				</tspan>
+			</text>
+			<g
+				style={{
+					display: "inline",
+				}}
+			>
+				<path
+					style={{
+						fill: "none",
+						fillOpacity: 1,
+						stroke: "#fff",
+						strokeWidth: 0.7,
+						strokeMiterlimit: 4,
+						strokeDasharray: "none",
+						strokeDashoffset: 0.0566929,
+						strokeOpacity: 1,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-126.92 71.158h11.306v4.09h-11.306z"
+					transform="translate(45.442 -20.542) scale(.33333)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-112.808 71.065h11.306v4.09h-11.306z"
+					transform="translate(45.442 -20.542) scale(.33333)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.154538,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 12.45 -32.992) scale(.33333)"
+					d="M-73.724-115.546h1.203v16.086h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0713392,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 12.45 -32.992) scale(.33333)"
+					d="M-73.66-130.48h1.203v3.428h-1.203z"
+				/>
+			</g>
+		</svg>
+	);
+};
+
+export const RLParIcon = (props: React.SVGProps<SVGSVGElement>) => {
+	return (
+		<svg
+			width="15mm"
+			height="15mm"
+			viewBox="0 0 15 15"
+			xmlns="http://www.w3.org/2000/svg"
+			{...props}
+		>
+			<text
+				xmlSpace="preserve"
+				style={{
+					fontStyle: "normal",
+					fontWeight: 400,
+					fontSize: "5.5864px",
+					lineHeight: 1.25,
+					fontFamily: "sans-serif",
+					display: "inline",
+					fill: "#fff",
+					fillOpacity: 1,
+					stroke: "none",
+					strokeWidth: 0.139661,
+				}}
+				x={1.143}
+				y={10.749}
+			>
+				<tspan
+					style={{
+						fontStyle: "normal",
+						fontVariant: "normal",
+						fontWeight: 400,
+						fontStretch: "normal",
+						fontFamily: "&quot",
+						// InkscapeFontSpecification: "&quot",
+						fill: "#fff",
+						strokeWidth: 0.139661,
+					}}
+					x={1.143}
+					y={10.749}
+				>
+					{"R"}
+					<tspan
+						style={{
+							fontSize: "3.63118px",
+							baselineShift: "sub",
+							strokeWidth: 0.139661,
+						}}
+					>
+						{"p"}
+					</tspan>
+					{"-L"}
+					<tspan
+						style={{
+							fontSize: "3.63118px",
+							baselineShift: "sub",
+							strokeWidth: 0.139661,
+						}}
+					>
+						{"p"}
+					</tspan>
+				</tspan>
+			</text>
+			<g
+				style={{
+					display: "inline",
+				}}
+			>
+				<path
+					style={{
+						fill: "none",
+						fillOpacity: 1,
+						stroke: "#fff",
+						strokeWidth: 0.7,
+						strokeMiterlimit: 4,
+						strokeDasharray: "none",
+						strokeDashoffset: 0.0566929,
+						strokeOpacity: 1,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-120.04 66.924h11.306v4.09h-11.306z"
+					transform="translate(45.442 -20.542) scale(.33333)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-120.122 73.808h11.306v4.09h-11.306z"
+					transform="translate(45.442 -20.542) scale(.33333)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 12.45 -32.992) scale(.33333)"
+					d="M-76.467-113.51h1.203v6.736h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0682794,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 12.45 -32.992) scale(.33333)"
+					d="M-69.715-108.739h1.203v3.14h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0751247,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 12.45 -32.992) scale(.33333)"
+					d="M-72.555-106.706h1.203v3.801h-1.203zm-.085-19.88h1.203v3.801h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0713392,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 12.45 -32.992) scale(.33333)"
+					d="M-69.426-123.601h1.203v3.428h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.1,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 12.45 -32.992) scale(.33333)"
+					d="M-76.33-123.577h1.203v6.736h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.106423,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(180 22.721 -10.271) scale(.33333)"
+					d="M105.571-76.467h1.203v7.629h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.109661,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(180 22.721 -10.271) scale(.33333)"
+					d="M122.686-76.341h1.203v8.1h-1.203z"
+				/>
+			</g>
+		</svg>
+	);
+};
+
+export const ZphiIcon = (props: React.SVGProps<SVGSVGElement>) => {
+	return (
+		<svg
+			width="15mm"
+			height="15mm"
+			viewBox="0 0 15 15"
+			xmlns="http://www.w3.org/2000/svg"
+			{...props}
+		>
+			<text
+				xmlSpace="preserve"
+				style={{
+					fontStyle: "normal",
+					fontWeight: 400,
+					fontSize: "5.58644px",
+					lineHeight: 1.25,
+					fontFamily: "sans-serif",
+					display: "inline",
+					fill: "#fff",
+					fillOpacity: 1,
+					stroke: "none",
+					strokeWidth: 0.139661,
+				}}
+				x={26.571}
+				y={176.019}
+				transform="translate(-25.445 -165.27)"
+			>
+				<tspan
+					style={{
+						fontStyle: "normal",
+						fontVariant: "normal",
+						fontWeight: 400,
+						fontStretch: "normal",
+						fontFamily: "&quot",
+						// InkscapeFontSpecification: "&quot",
+						fill: "#fff",
+						strokeWidth: 0.139661,
+					}}
+					x={26.571}
+					y={176.019}
+				>
+					{"|Z|/\u0398"}
+				</tspan>
+			</text>
+			<g
+				style={{
+					display: "inline",
+				}}
+			>
+				<path
+					style={{
+						fill: "none",
+						fillOpacity: 1,
+						stroke: "#fff",
+						strokeWidth: 0.7,
+						strokeMiterlimit: 4,
+						strokeDasharray: "none",
+						strokeDashoffset: 0.0566929,
+						strokeOpacity: 1,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-141.36 59.136h11.306v4.09h-11.306z"
+					transform="translate(52.548 -16.888) scale(.33333)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0932882,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 17.83 -34.718) scale(.33333)"
+					d="M-61.926-130.058h1.203v5.862h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0885191,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 17.83 -34.718) scale(.33333)"
+					d="M-61.638-146.771h1.203v5.278h-1.203z"
+				/>
+			</g>
+		</svg>
+	);
+};
+
+export const ZrealImagIcon = (props: React.SVGProps<SVGSVGElement>) => {
+	return (
+		<svg
+			width="15mm"
+			height="15mm"
+			viewBox="0 0 15 15"
+			xmlns="http://www.w3.org/2000/svg"
+			{...props}
+		>
+			<text
+				xmlSpace="preserve"
+				style={{
+					fontStyle: "normal",
+					fontWeight: 400,
+					fontSize: "5.5864px",
+					lineHeight: 1.25,
+					fontFamily: "sans-serif",
+					display: "inline",
+					fill: "#fff",
+					fillOpacity: 1,
+					stroke: "none",
+					strokeWidth: 0.13966,
+				}}
+				x={27.258}
+				y={176.019}
+				transform="translate(-25.445 -165.27)"
+			>
+				<tspan
+					style={{
+						fontStyle: "normal",
+						fontVariant: "normal",
+						fontWeight: 400,
+						fontStretch: "normal",
+						fontFamily: "&quot",
+						// InkscapeFontSpecification: "&quot",
+						fill: "#fff",
+						strokeWidth: 0.13966,
+					}}
+					x={27.258}
+					y={176.019}
+				>
+					{"Z"}
+				</tspan>
+			</text>
+			<g
+				style={{
+					display: "inline",
+				}}
+			>
+				<path
+					style={{
+						fill: "none",
+						fillOpacity: 1,
+						stroke: "#fff",
+						strokeWidth: 0.7,
+						strokeMiterlimit: 4,
+						strokeDasharray: "none",
+						strokeDashoffset: 0.0566929,
+						strokeOpacity: 1,
+						paintOrder: "stroke fill markers",
+					}}
+					d="M-141.36 59.136h11.306v4.09h-11.306z"
+					transform="translate(52.548 -16.888) scale(.33333)"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0932882,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 17.83 -34.718) scale(.33333)"
+					d="M-61.926-130.058h1.203v5.862h-1.203z"
+				/>
+				<path
+					style={{
+						fill: "#fff",
+						fillOpacity: 1,
+						stroke: "none",
+						strokeWidth: 0.0921875,
+						strokeDashoffset: 0.0566929,
+						paintOrder: "stroke fill markers",
+					}}
+					transform="rotate(-90 17.83 -34.718) scale(.33333)"
+					d="M-61.638-147.217h1.203v5.724h-1.203z"
+				/>
+			</g>
+			<text
+				xmlSpace="preserve"
+				style={{
+					fontStyle: "normal",
+					fontWeight: 400,
+					fontSize: "3.28001px",
+					lineHeight: 1.25,
+					fontFamily: "sans-serif",
+					display: "inline",
+					fill: "#fff",
+					fillOpacity: 1,
+					stroke: "none",
+					strokeWidth: 0.0820003,
+				}}
+				x={31.154}
+				y={173.687}
+				transform="translate(-25.445 -165.27)"
+			>
+				<tspan
+					style={{
+						fill: "#fff",
+						strokeWidth: 0.0820003,
+					}}
+					x={31.154}
+					y={173.687}
+				>
+					{"real"}
+				</tspan>
+			</text>
+			<text
+				xmlSpace="preserve"
+				style={{
+					fontStyle: "normal",
+					fontWeight: 400,
+					fontSize: "3.28001px",
+					lineHeight: 1.25,
+					fontFamily: "sans-serif",
+					display: "inline",
+					fill: "#fff",
+					fillOpacity: 1,
+					stroke: "none",
+					strokeWidth: 0.0820003,
+				}}
+				x={31.142}
+				y={176.84}
+				transform="translate(-25.445 -165.27)"
+			>
+				<tspan
+					style={{
+						fill: "#fff",
+						strokeWidth: 0.0820003,
+					}}
+					x={31.142}
+					y={176.84}
+				>
+					{"imag"}
+				</tspan>
+			</text>
 		</svg>
 	);
 };

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="15mm"
+   height="15mm"
+   viewBox="0 0 15 15"
+   version="1.1"
+   id="svg1524"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="zoomAuto.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1526"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="6.2217172"
+     inkscape:cx="66.782206"
+     inkscape:cy="91.373488"
+     inkscape:window-width="3440"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1521" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="M 6.5481929,6.3615914e-8 C 11.750606,-6.9993638e-4 14.873976,5.7756001 12.024926,10.12853 l 2.83233,3.08615 L 12.904766,15 10.172496,11.99073 C 6.5185249,14.42218 1.5540769,12.63772 0.28420386,8.4364401 -0.98566814,4.2351701 2.1591679,-4.1993638e-4 6.5481929,6.3615914e-8 Z M 10.160296,2.9287201 c -3.9535221,-3.94439 -10.45223214,0.41426 -8.3147821,5.56641 2.13745,5.1521599 9.8130821,3.6303799 9.8133221,-1.9543 5.9e-4,-1.35539 -0.53866,-2.65518 -1.49854,-3.61211 z"
+       id="path4-2-8-7"
+       style="display:inline;fill:#ffffff;stroke-width:0.122031"
+       sodipodi:nodetypes="cccccsccscc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:9.53053px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.238264"
+       x="3.1481006"
+       y="9.6579733"
+       id="text101375-5"><tspan
+         sodipodi:role="line"
+         id="tspan101373-1"
+         style="fill:#ffffff;stroke-width:0.238264"
+         x="3.1481006"
+         y="9.6579733">A</tspan></text>
+  </g>
+</svg>

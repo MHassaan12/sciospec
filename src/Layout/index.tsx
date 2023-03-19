@@ -1,6 +1,6 @@
 import { FC, ReactNode, useEffect } from "react";
 import { Outlet } from "react-router-dom";
-import { Footer, Titlebar } from "../components";
+import { Footer, SideBar, Titlebar } from "../components";
 
 const { ipcRenderer } = window.require("electron");
 
@@ -30,13 +30,14 @@ export const Layout: FC<ILayout> = ({ children }) => {
 	}, []);
 
 	return (
-		<>
+		<main className="flex flex-col h-screen justify-between">
 			<Titlebar />
 			{/* <div className="select-none">{children}</div> */}
-			<div className="h-[81vh] bg-black flex flex-col">
+			<div className="h-screen bg-black flex flex-col">
+				<SideBar />
 				<Outlet />
 			</div>
 			<Footer />
-		</>
+		</main>
 	);
 };

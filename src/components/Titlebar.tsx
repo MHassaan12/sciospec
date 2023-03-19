@@ -42,7 +42,7 @@ const Titlebar: FC = () => {
 
 	return (
 		<nav className="bg-custom-main border-b-4 border-neutral-400">
-			<div className="max-w-7xl mx-auto ">
+			<div >
 				<div className="relative flex items-center justify-between h-16">
 					{/* <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
 						<button
@@ -167,11 +167,11 @@ const Titlebar: FC = () => {
 								className="min-max-button focus:outline-none hover:bg-gray-700"
 								onClick={onMaximize}
 							>
-								{maximized ? (
+								{/* {maximized ? (
 									<IoContractOutline />
 								) : (
 									<IoExpandOutline />
-								)}
+								)} */}
 							</button>
 
 							<button

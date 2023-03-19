@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="15mm"
+   height="7mm"
+   viewBox="0 0 15 7"
+   version="1.1"
+   id="svg2011"
+   sodipodi:docname="RL.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2013"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="12.443434"
+     inkscape:cx="0.84381852"
+     inkscape:cy="29.13183"
+     inkscape:window-width="3440"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2008" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-118.73564,-119.51818)">
+    <g
+       id="g40271-0-4"
+       transform="matrix(0.48355105,0,0,0.48355223,181.82957,87.278985)"
+       style="display:inline">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.0566929;stroke-opacity:1;paint-order:stroke fill markers"
+         id="rect40263-2-1"
+         width="11.306418"
+         height="4.0895557"
+         x="-126.91967"
+         y="71.157646" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dashoffset:0.0566929;paint-order:stroke fill markers"
+         id="rect40265-8-9"
+         width="11.306418"
+         height="4.0895557"
+         x="-112.80791"
+         y="71.065414" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.154538;stroke-dashoffset:0.0566929;paint-order:stroke fill markers"
+         id="rect40267-5-3"
+         width="1.2028104"
+         height="16.086298"
+         x="-73.724419"
+         y="-115.54618"
+         transform="rotate(-90)" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0713392;stroke-dashoffset:0.0566929;paint-order:stroke fill markers"
+         id="rect40269-4-7"
+         width="1.2028104"
+         height="3.4280097"
+         x="-73.659698"
+         y="-130.48039"
+         transform="rotate(-90)" />
+    </g>
+  </g>
+</svg>

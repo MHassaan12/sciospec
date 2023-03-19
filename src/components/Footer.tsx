@@ -12,7 +12,7 @@ const Footer: FC = () => {
 					<span className="px-8 border-2 border-custom-orange rounded-lg mx-2">
 						idle
 					</span>
-					<span className="px-2 bg-red-600 rounded-lg mx-2">
+					<span className="px-2 bg-red-500 py-0.5 rounded-lg mx-2">
 						out of range
 					</span>
 				</div>
