@@ -1,6 +1,6 @@
 import React, { FC, useState } from "react";
 import { CIcon, LIcon, RCIcon, RCParIcon, ResistorIcon, RIcon, RLIcon, RLParIcon, SciospecLogo, ZphiIcon, ZrealImagIcon } from "../assets/SvgIcons";
-import { SymbolModel, TextButton } from "../components";
+import { SymbolModel, TextButton, ToggleButton } from "../components";
 
 const modelData = [
 	<ZphiIcon width={100} height={100} />,
@@ -28,12 +28,10 @@ const MainPage: FC = () => {
 					>
 						<div className="w-[20%] bg-custom-primary pb-10 text-center">
 							<div className="text-7xl ">
-								R
-								{/* <sub className="z-0">p</sub> */}
+								R{/* <sub className="z-0">p</sub> */}
 							</div>
 							<div className="text-7xl mt-5">
-								C
-								{/* <sub>p</sub> */}
+								C{/* <sub>p</sub> */}
 							</div>
 						</div>
 						<div className="w-[70%] text-center">
@@ -60,17 +58,24 @@ const MainPage: FC = () => {
 							</div>
 						</div>
 					</div>
-					<div className={`${
-						modelOne ? "block" : "hidden"} ml-8 m-4 flex flex-col justify-between`}>
+					<div
+						className={`${
+							modelOne ? "block" : "hidden"
+						} ml-8 m-4 flex flex-col justify-between`}
+					>
 						<div className="">
 							<p className="">show error:</p>
-							<div className="text-4xl py-1">
+							<div className="block">
+
+							<ToggleButton />
+							</div>
+							{/* <div className="text-4xl py-1">
 								<span className="bg-custom-primary border rounded-full border-grey flex items-center cursor-pointer w-12 bg-green justify-end">
 									<span className="rounded-full border w-6 h-6 border-grey shadow-inner bg-white shadow">
-										{/* <span className="text-sm">ON</span> */}
+										<span className="text-sm">ON</span>
 									</span>
 								</span>
-							</div>
+							</div> */}
 						</div>
 
 						<TextButton text="OK" bgColor="bg-custom-main" />
@@ -79,7 +84,7 @@ const MainPage: FC = () => {
 				<div
 					className={` ${
 						modelOne ? "block" : "hidden"
-					} m-4 transition-all duration-500`}
+					} m-4 transition-all duration-500 pb-12`}
 				>
 					<h1 className="text-4xl">select model:</h1>
 					<div className="flex mt-8">
@@ -113,7 +118,7 @@ const MainPage: FC = () => {
 					} m-4 transition-all duration-500`}
 				>
 					<h1 className="text-4xl">select model:</h1>
-					<div className="flex mt-8 mb-20">
+					<div className="flex mt-8 mb-16">
 						{/* <SymbolModel
 							data={[<ResistorIcon />, <ResistorIcon />]}
 						/> */}
@@ -157,19 +162,23 @@ const MainPage: FC = () => {
 							</div>
 						</div>
 					</div>
-					<div className={`${
-						modelTwo ? "block" : "hidden"} ml-8 m-4 flex flex-col justify-between`}>
+					<div
+						className={`${
+							modelTwo ? "block" : "hidden"
+						} ml-8 m-4 flex flex-col justify-between`}
+					>
 						<TextButton text="OK" bgColor="bg-custom-main" />
 
 						<div className="">
 							<p className="">show error:</p>
-							<div className="text-4xl py-1">
+							<ToggleButton />
+							{/* <div className="text-4xl py-1">
 								<span className="bg-custom-primary border rounded-full border-grey flex items-center cursor-pointer w-12 bg-green justify-end">
 									<span className="rounded-full border w-6 h-6 border-grey shadow-inner bg-white shadow">
-										{/* <span className="text-sm">ON</span> */}
+										<span className="text-sm">ON</span>
 									</span>
 								</span>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</div>
@@ -179,3 +188,5 @@ const MainPage: FC = () => {
 };
 
 export default MainPage;
+
+

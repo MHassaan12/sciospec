@@ -40,6 +40,9 @@ module.exports = {
 				"custom-sm-4": "0.9rem",
 				55: "55rem",
 			},
+			border: {
+				"1.5": "1.5px"
+			},
 
 			fontFamily: {
 				sans: ["ui-sans-serif", "system-ui"],

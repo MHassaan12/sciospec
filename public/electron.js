@@ -7,6 +7,9 @@ const { showNotification } = require("./utils/showNotification");
 const AutoLaunch = require("auto-launch");
 const remote = require("@electron/remote/main");
 const config = require("./utils/config");
+const Store = require('electron-store');
+
+const store = new Store();
 
 if (config.isDev) require("electron-reloader")(module);
 
@@ -53,4 +56,14 @@ autoUpdater.on("update-downloaded", () => {
 
 ipcMain.on("restart_app", () => {
 	autoUpdater.quitAndInstall();
+});
+
+// Set up IPC communication
+ipcMain.on('get-electron-value', (event, key) => {
+	const value = store.get(key);
+	return value
+});
+
+ipcMain.on('set-store-value', (event, key, value) => {
+	store.set(key, value);
 });

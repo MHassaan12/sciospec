@@ -3,6 +3,7 @@ const { join } = require("path");
 const { autoUpdater } = require("electron-updater");
 const remote = require("@electron/remote/main");
 const config = require("./config");
+const path = require("path");
 
 exports.createMainWindow = async () => {
 	const window = new BrowserWindow({
@@ -13,6 +14,8 @@ exports.createMainWindow = async () => {
 			enableRemoteModule: true,
 			devTools: config.isDev,
 			contextIsolation: false,
+			preload: path.join(__dirname, 'preload.js'),
+
 		},
 		frame: false,
 		icon: config.icon,
